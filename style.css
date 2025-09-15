@@ -1,8 +1,50 @@
 html,
-body,
 * {
-  font-size: 450px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #abd9ff;
+    color: #0d3161;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #0d3161;
+    font-size: 100px;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.game1, .game2, .game3 {
+    background-color: #c6e9ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.game1 img, .game2 img, .game3 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.game1 h2, .game2 h3, .game3 h4 {
+    color: #0d3161;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.game1 p, .game2 p, .game3 p {
+    font-size: 20px;
+    text-align: center;
+} 
