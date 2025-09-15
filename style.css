@@ -26,13 +26,13 @@ p {
 
 .game1, .game2, .game3 {
     background-color: #c6e9ff;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
     margin-bottom: 30px;
 }
 
 .game1 img, .game2 img, .game3 img {
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -46,5 +46,7 @@ p {
 
 .game1 p, .game2 p, .game3 p {
     font-size: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
     text-align: center;
 } 
